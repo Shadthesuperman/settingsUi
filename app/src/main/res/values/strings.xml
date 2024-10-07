@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Soulee</string>
+    <string name="soulee">Soulee</string>
+
+    <string name="personal_details">PERSONAL\nDETAILS</string>
+    <string name="password_privacy">PASSWORD\nPRIVACY</string>
+    <string name="app_settings">APP\nSETTINGS</string>
+    <string name="app_credit">APP\nCREDIT</string>
+    <string name="help_support">HELP\nSUPPORT</string>
+
+
+
+    <string name="subscribe_text">SUBSCRIBE FOR FULL ACCESS WITH AUTOMATIC RENEWAL...</string>
+    <string name="one_month">1 MONTH</string>
+    <string name="six_months">6 MONTHS</string>
+    <string name="twelve_months">12 MONTHS</string>
+    <string name="custom_connections">CUSTOM CONNECTIONS</string>
+    <string name="unlimited_quizzes">UNLIMITED QUIZZES</string>
+    <string name="profile_customization">PROFILE AND PHOTO COLOR CUSTOMIZATION</string>
+    <string name="profile_visitors">SEE YOUR PROFILE VISITORS  CUSTOM KNOT INCREASERS</string>
+    <string name="price">60 TAKA</string>
+
+
+</resources>
+
+

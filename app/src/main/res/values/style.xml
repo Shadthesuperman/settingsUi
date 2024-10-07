@@ -1,0 +1,7 @@
+<resources>
+    <!-- Other styles -->
+    <style name="CustomLogoStyle">
+        <item name="android:fontFamily">sans-serif</item> <!-- Or specify a custom font family -->
+        <item name="android:textStyle">italic</item> <!-- Italic style -->
+    </style>
+</resources>

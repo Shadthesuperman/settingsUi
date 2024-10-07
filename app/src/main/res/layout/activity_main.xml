@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- Soulee Text Logo -->
+    <TextView
+        android:id="@+id/text_logo_soulee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:padding="16dp"
+        android:text="@string/soulee"
+        android:textAllCaps="false"
+        android:textAppearance="@style/CustomLogoStyle"
+        android:textColor="@color/primary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Scrollable Layout for Sections -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text_logo_soulee"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Section: Personal Details -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_personal_details"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="16dp"
+                    android:background="@drawable/bg_personal_details_curved"> <!-- Your image background -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="1dp"
+
+                        android:gravity="center_vertical|start"
+                        android:text="@string/personal_details"
+                        android:textColor="@color/black"
+
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Section: Password & Privacy -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_password_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="16dp"
+                    android:background="@drawable/bg_password_privacy_curved">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="1dp"
+
+                        android:gravity="center_vertical|start"
+                        android:text="@string/password_privacy"
+                        android:textColor="@color/black"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Section: App Settings -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_app_settings"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="16dp"
+                    android:background="@drawable/bg_app_settings_curved">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="1dp"
+
+                        android:gravity="center_vertical|start"
+                        android:text="@string/app_settings"
+                        android:textColor="@color/black"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Section: App Credit -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_app_credit"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="16dp"
+                    android:background="@drawable/bg_app_credit_curved">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="1dp"
+
+                        android:gravity="center_vertical|start"
+                        android:text="@string/app_credit"
+                        android:textColor="@color/black"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Section: Help & Support -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_help_support"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="16dp"
+                card_view:cardCornerRadius="30dp"
+                card_view:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="16dp"
+                    android:background="@drawable/bg_help_support_curved">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="1dp"
+
+                        android:gravity="center_vertical|start"
+                        android:text="@string/help_support"
+                        android:textColor="@color/black"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
